@@ -1,0 +1,123 @@
+*{
+padding: 0 0 0 0;
+margin: 0 0 0 0;
+
+}
+.nav {
+  background-color: #3b4148;
+  padding: 10px 0px;
+  justify-content: center;
+  display: flex;
+  width: 100%;
+}
+
+.logo{
+    width: 80px;
+    height: 50px;
+}
+
+.logo .img{
+    width: 100%;
+    height: 100%;
+}
+
+.aside-left{
+    display: flex;
+}
+
+.aside-right a{
+    margin-right: 10px;
+}
+
+.navbar-item:hover {
+  background-color: #b5cd60;
+  color: white;
+}
+
+.center {
+  text-align: center;
+}
+.navbar-item {
+  color:#16aa56 ;
+  padding: 10px 100px;
+  
+  height: 100%;
+}
+
+.prenav {
+  text-align: end;
+}
+
+
+.img{max-height: 600px;
+ max-width:500px ;
+min-height: 300px;
+min-width: 300px;
+}
+.firstline{
+  padding: 10px 0px;
+ display: flex ;
+justify-content: space-around;
+align-items: center;
+}
+.name{
+ color: black;
+
+}
+.name-hover{
+  background-color: white;
+  color: yellow;
+}
+.bai{display:flex ;
+
+
+
+
+}
+#contact p {
+  padding: 10px 0px;
+}
+.img{
+ justify-content: center;
+
+
+}
+.wide {
+  letter-spacing: 4px;
+  font-size: 28px;
+  font-weight: 200;
+}
+
+.opacity {
+  opacity: 0.6;
+  /* làm mờ phần tử */
+}
+.hieu-input {
+  padding: 8px;
+  display: block;
+  border-bottom: 1px solid #ccc;
+  width: 100%;
+}
+
+.hieu-button {
+  color: #fff;
+  display: inline-block;
+  padding: 8px 16px;
+  background-color: black;
+  cursor: pointer;
+
+}
+
+.hieu-button:hover {
+  color: black;
+  background-color: gray;
+}
+#home {
+  max-width: 980px;
+  /* Chiều ngang tối đa: 980px */
+  margin: auto;
+}
+body {
+  background: dodgerblue linear-gradient(45deg, aqua, dodgerblue, deeppink) fixed;
+
+}
